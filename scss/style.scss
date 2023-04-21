@@ -28,10 +28,11 @@ body::before {
 
 h1 {
   margin-bottom: 30px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   margin-top: 20px;
   margin-bottom: 80px;
   font-size: 50px; 
+  font-weight: bold;
 }
 
 #logotipas {
@@ -45,7 +46,7 @@ h1 {
 button {
   width: 370px;
   height: 50px;
-  border: 1px solid white;
+  border: 2px solid white;
   background: #ffffff36;
   color: white;
   font-size: 1.2em;
@@ -68,7 +69,7 @@ button.selected {
 
 .tabs {
   background: #515f1298;
-  border: 1px solid white;
+  border: 5px solid white;
   max-width: 1200px;
   width: 95%;
   margin: auto;
@@ -83,12 +84,12 @@ button.selected {
 
 img {
   width: 100%;
-  height: 700px;
+  height: 500px;
   object-fit: cover;
   object-position: center;
   border-radius: 4px;
   fill-opacity: (80%);
-  border: 1px solid white;
+  border: 2px solid white;
   cursor: pointer;
 }
 
