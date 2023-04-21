@@ -24,7 +24,7 @@ gulp.task('sass', gulp.series(function(done) {
 			outputStyle: 'compressed'
 		}))
         .pipe(autoprefixer({
-        browsers: ['last 2 versions'],
+            overrideBrowserslist: ['last 2 versions'],
         cascade: false
         }))
 		.pipe(gulp.dest('app/css'))
