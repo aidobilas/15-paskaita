@@ -6,12 +6,12 @@
 
 body {
   min-height: 100vh;
-  background: url(https://www.vle.lt/uploads/_CGSmartImage/39657_2-ef6cf8e12262ad3a19ec91f3ce0aca19.jpg);
+  background: url(https://s1.15min.lt/static/cache/NjcweCwsNzU2NTQ0LG9yaWdpbmFsLCxpZD00MTExNTk4JmRhdGU9MjAxOCUyRjA4JTJGMTcsMTU1MjgzNjkxMw==/bradeliskiu-piliakalnis-5b76cffc4f1db.jpg);
   background-size: cover;
   color: white;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 30px;
+  font-family: roboto;
+  padding: 5px;
   position: relative;
 }
 
@@ -28,24 +28,29 @@ body::before {
 
 h1 {
   margin-bottom: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 50px;
+  
 }
 
 button {
-  width: 150px;
+  width: 350px;
   height: 50px;
   border: 1px solid white;
   background: #ffffff36;
   color: white;
   font-size: 1.2em;
-  box-shadow: 4px 4px 5px #f5f5f53e;
+  box-shadow: 5px 5px 8px #515f12;
   transition: 0.3s;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 button:hover {
   cursor: pointer;
-  background: #ffffff96;
+  background: #515f1298;
 }
 
 button.selected {
@@ -78,4 +83,5 @@ img {
 p {
 margin: 20px;
 color: black;
+text-align: justify;
 }
